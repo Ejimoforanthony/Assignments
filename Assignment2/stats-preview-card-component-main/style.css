@@ -34,14 +34,12 @@ main img{
 
     max-width: 100%;
     border-radius: 5px;
-    background-color: var(--Soft-violet);
     color: var(--Soft-violet);
-    border-color: var(--Soft-violet);
     opacity: 0.4;
+    object-fit: cover;
 }
 
 main article{
-    text-align: center;
     height: 100%;
     width: 320px;
     padding: 2rem;
@@ -49,29 +47,39 @@ main article{
 }
 
 main article h1{
-    display: grid;
     font-size: 22px;
     font-weight: 800;
     font-family: inter, lexend deca;
     color: var(--White);
 }
 
+.insight {color: var(--Soft-violet) }
+
 main article p{
     color: var(--Slightly-transparent-white);
     padding-top: 1.5rem;
     font-weight: 50;
-    font-size: 12px;
+    font-size: 10px;
     text-align: left;
 }
 main article div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 2rem;
-    font-size: 16px;
-    font-weight: 600;
+    padding-top: 1rem;
+    font-size: 10px;
+    font-weight: 00;
+}
+.numbers {
+    font-weight: bold;
+    font-size: 14px;
+    color: aliceblue;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-/*.attribution {margin-top: 20rem;}
-
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+     margin-top: auto;
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
